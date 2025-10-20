@@ -1,7 +1,7 @@
 ## Menggunakan Laravel
 1. clone repositories ini
 2. copy file .env.example ke .env
-3. Lakukan Instalasi modul Laravel
+3. lakukan install/update modul-modul laravel
 ```bash
 composer install
 ```
@@ -13,6 +13,5 @@ php artisan migrate
 ```bash
 php artisan key:generate
 ```
-6. lakukan update/install modul-modul laravel
-```bash
+
 
