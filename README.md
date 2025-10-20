@@ -1,7 +1,10 @@
 ## Menggunakan Laravel
 1. clone repositories ini
 2. copy file .env.example ke .env
-3. lakukan install/update modul-modul laravel
+```bash
+copy .env.example .env
+```
+4. lakukan install/update modul-modul laravel
 ```bash
 composer install
 ```
