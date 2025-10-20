@@ -1,10 +1,8 @@
-<div class="container">
+@extends('layouts.app')
+@section('judulpage','About Page')
 
-    <div class="menu">
-        <a href="./">Home</a>
-        <a href="{{ route('listteman') }}">teman</a>
-        <a href="./about">About</a>
-    </div>
+@section('konten')
+<div class="container">
 
     <div class="konten">
         <h3>About Page</h3>
@@ -12,3 +10,4 @@
     </div>
 
 </div>
+@endsection
