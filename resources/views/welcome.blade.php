@@ -2,7 +2,7 @@
 
     <div class="menu">
         <a href="./">Home</a>
-        <a href="./teman">teman</a>
+        <a href="{{ route('listteman') }}">teman</a>
         <a href="./about">About</a>
     </div>
 

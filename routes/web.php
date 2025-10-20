@@ -9,4 +9,4 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about');
 });
-Route::get('/teman',[TemanController::class,'index'])->name('dtteman');
+Route::get('/teman',[TemanController::class,'index'])->name('listteman');
