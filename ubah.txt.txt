@@ -1,0 +1,2 @@
+@echo off
+copy php.txt c:\xampp\php\php.ini
