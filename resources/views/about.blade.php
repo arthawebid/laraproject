@@ -6,7 +6,7 @@
 
     <div class="konten">
         <h3>About Page</h3>
-        https://shorturl.at/sMP0w
+        <a href="https://shorturl.at/hMeDB"> https://shorturl.at/hMeDB </a>
     </div>
 
 </div>
