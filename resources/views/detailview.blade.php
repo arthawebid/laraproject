@@ -1,0 +1,20 @@
+@extends('layouts.app')
+@section('judulpage','Data Detail')
+@section('konten')
+<div class="container">
+
+    <h3>Data Detail Teman</h3>
+
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">{{ $data["namateman"] }}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">{{ $data["alamat"] }} {{ $data["kota"] }}</h6>
+            <h6 class="card-subtitle mb-2 text-muted">{{ $data["wa"] }}</h6>
+
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+        </div>
+    </div>
+
+</div>
+@endsection

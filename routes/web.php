@@ -11,4 +11,6 @@ Route::get('/about', function () {
     return view('about');
 });
 Route::get('/teman',[TemanController::class,'index'])->name('listteman');
+Route::get('/temandetail/{id}',[TemanController::class,'detail'])->name('detailteman');
+
 Route::get('/produk',[ProductController::class,'index'])->name('listProduk');
